@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Nonobakes</title>
+    <script src="js/app.js" defer></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cabin&family=Herr+Von+Muellerhoff&family=Poiret+One&family=Source+Sans+Pro:wght@700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="style-customer.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container">
+            <nav class="navbar-con">
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                </div>
+                <div class ="logo">
+                    <img src="images/logo.png" alt="" class="logoimg">
+                    <a href="customer-index.php" class="logo">Nonobakes</a>
+                </div>
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a href="customer-index.php" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customer-menu.php" class="nav-link ">Menu</a>
+                    </li>
+                    <li class="nav-item dropdown-nav ">
+                        <button class="btn-drops" onclick="myFunction()">
+                            About Us <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-cont" id="myDropdown">
+                            <a href="about.html">About Us</a>
+                            <a href="customer-contacts.php">Contact Us</a>
+                            <a href="customer-faqs.php">FAQS</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a href="customer-cart.php" class="nav-link">Cart</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+
+    <section class="hero small-size-hero" id="hero">
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="description padding-right animate-left">
+                    <div class="global-headline">
+                        <h3 class="headline headline-dark">Nonobake's Story</h3>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>Nonobakes.ph is a business that offers quality baked goods. Enjoy our finest bento cakes, cookies and
+                        other pastries</p>
+                    <a href="customer-contacts.php" class="btn btn-secondary">Contact Us</a>
+
+                </div>
+                <div class="image animate-right">
+                    <img class="animate-top" src="images/about-img-2.jpeg" alt="bread">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="about">
+        <div class="container">
+            <div class="row">
+                <div class="image padding-right margin-bottom animate-left">
+                    <img src="images/about-img-1.jpeg" alt="bread">
+                </div>
+                <div class="description animate-right">
+                    <div class="global-headline">
+                        <h3 class="headline headline-dark">How it started?</h3>
+                        <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    </div>
+                    <p>Nonobakes originated in 2020 as a mere online dessert shop that sells cookies, cakes, and crinkles. It was the brainchild of Jebbie Dela Luz and Joeliza Dela Luz, who are currently college students across the municipality of Cainta, Rizal. </p>
+                    <p>Eventually, Bento Cakes became a trend and sparked the interest of many consumers.</p>
+                    <p>In the Year 2021, Nonobakes officially opened to the delight of selling highly customized and exclusively made bento cakes open for any events.</p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESERVATION SECTION 
+    <section id="reservation" class="reservation">
+        <div class="container">
+            <div class="reservation__container">
+                <h4>Book Your Table</h4>
+                <form action="#" class="reservation__form">
+                    <select name="persons">
+                        <option>1 Person</option>
+                        <option>2 Person</option>
+                        <option>3 Person</option>
+                        <option>4 Person</option>
+                        <option>5 Person</option>
+                        <option>6 Person</option>
+                        <option>7 Person</option>
+                    </select>
+                    <input type="date" class="reservation__date">
+                    <input type="time" class="reservation__time">
+                    <button class="btn btn-primary submit__reservation">Book Now</button>
+                </form>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="back-to-top">
+                <a href="#hero"><i class="fas fa-chevron-up"></i></a>
+            </div>
+            <div class="footer__content">
+                <div class="footer__content-about animate-top">
+                    <h4>About nonobakes.ph</h4>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <p>All of our baked items were baked with love, enthusiasm, and firm commitment.</p>
+                </div>
+                <div class="footer__content-divider animate-bottom">
+                    <div class="social-media">
+                        <h4>Follow Us</h4>
+                        <ul class="social-icons">
+                            <li>
+                                <a href="https://www.facebook.com/nonobakes.ph">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.instagram.com/nonobakes.ph/">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="newsletter-container">
+                        <h4>Newsletter</h4>
+                        <form action="" class="newsletter-form">
+                            <div class="newsletter-form-box">
+                                <input type="text" class="newsletter-input" placeholder="Your email address...">
+                                <button class="newsletter-btn" type="submit">
+                                    <i class="fas fa-envelope"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
